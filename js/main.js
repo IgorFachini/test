@@ -9,7 +9,7 @@ function successGps(e) {
 
 var watchId = navigator.geolocation.watchPosition(successGps, logEvent, {
   enableHighAccuracy: true,
-  timeout: 0,
+  timeout: 1000,
   maximumAge: 0
 });
 
