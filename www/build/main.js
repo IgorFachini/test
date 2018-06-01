@@ -214,7 +214,7 @@ var HomePage = /** @class */ (function () {
     function HomePage(navCtrl, hostElement) {
         this.navCtrl = navCtrl;
         this.hostElement = hostElement;
-        this.data = { url: "https://pixlcore.com/demos/webcamjs/demos/basic.html" };
+        this.data = { url: "http://anssiko.github.io/html-media-capture/" };
     }
     HomePage.prototype.ngOnInit = function () {
         this.setUrl(this.data.url);
@@ -232,9 +232,10 @@ var HomePage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-home',template:/*ion-inline-start:"/home/dev/Área de Trabalho/Desenvolvimento/rotaexata/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n\n    <ion-buttons start>\n      <button ion-button icon-only (click)="openMenu()">\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n\n    <ion-title>\n      Ionic Blank\n    </ion-title>\n\n    <ion-buttons end>\n      <button ion-button icon-only (click)="openSettings()">\n        <ion-icon name="options"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-content scroll="true" overflow-scroll="true" class="iframe-wrapper">\n    <iframe data-tap-disabled="true" src="data.url"></iframe>\n  </ion-content>\n</ion-content>\n'/*ion-inline-end:"/home/dev/Área de Trabalho/Desenvolvimento/rotaexata/src/pages/home/home.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */]) === "function" && _b || Object])
     ], HomePage);
     return HomePage;
+    var _a, _b;
 }());
 
 //# sourceMappingURL=home.js.map
