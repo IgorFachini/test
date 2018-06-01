@@ -214,7 +214,7 @@ var HomePage = /** @class */ (function () {
     function HomePage(navCtrl, hostElement) {
         this.navCtrl = navCtrl;
         this.hostElement = hostElement;
-        this.data = { url: "http://anssiko.github.io/html-media-capture/" };
+        this.data = { url: "../webtest/templates/cover.html" };
     }
     HomePage.prototype.ngOnInit = function () {
         this.setUrl(this.data.url);
