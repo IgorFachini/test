@@ -25682,3 +25682,28 @@ page-home .iframe-wrapper iframe {
   width: 100%;
   height: 100%;
 }
+
+page-home .title-md {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+page-pattern-lock .content ul {
+  margin-left: 0em !important;
+}
+
+page-pattern-lock .patt-dots {
+  background: #424242 !important;
+}
+
+page-pattern-lock .patt-lines {
+  background: rgba(0, 0, 0, 0.5) !important;
+}
+
+page-pattern-lock .patt-holder {
+  background: #ffffff !important;
+}

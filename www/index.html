@@ -10,6 +10,14 @@
   <meta name="format-detection" content="telephone=no">
   <meta name="msapplication-tap-highlight" content="no">
 
+
+    <!-- fot patternLock -->
+  <!-- https://github.com/s-yadav/patternLock -->
+  <link href="assets/lib/patternLock/patternLock.css" rel="stylesheet" type="text/css" />
+  <script src="assets/lib/jquery/jquery.min.js"></script>
+  <script src="assets/lib/patternLock/patternLock.js" type="module"></script>
+
+  
   <link rel="icon" type="image/x-icon" href="assets/icon/favicon.ico">
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#4e8ef7">
@@ -21,20 +29,20 @@
   <!-- cordova.js required for cordova apps (remove if not needed) -->
   <script src="cordova.js"></script>
 
-  <!-- fot patternLock -->
-  <!-- https://github.com/s-yadav/patternLock -->
-  <link href="assets/lib/patternLock/patternLock.css" rel="stylesheet" type="text/css" />
-  <script src="assets/lib/jquery/jquery.min.js"></script>
-  <script src="assets/lib/patternLock/patternLock.js" type="module"></script>
 
-  <!-- un-comment this code to enable service worker
+
+
+  <!-- for bulma  -->
+  <link rel="stylesheet" href="assets/lib/bulma/css/bulma.css">
+
+  <!-- un-comment this code to enable service worker -->
   <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('service-worker.js')
         .then(() => console.log('service worker installed'))
         .catch(err => console.error('Error', err));
     }
-  </script>-->
+  </script>
 
   <link href="build/main.css" rel="stylesheet">
 
